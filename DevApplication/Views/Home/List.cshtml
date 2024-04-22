@@ -1,0 +1,32 @@
+@model List<Contact>
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>Contact List</h1>
+
+<table class="table-bordered">
+    <thead class="fw-bold">
+        <td>Name</td>
+        <td>Email</td>
+        <td>Category</td>
+        <td>Phone Number</td>
+        <td>Address</td>
+    </thead>
+    
+    @foreach (var x in Model)
+    {
+        <tbody>
+            <td>@x.Name</td>
+            <td>@x.Email</td>
+            <td>@x.Category.CategoryName</td>
+            <td>@x.PhoneNumber</td>
+            <td>@x.Address</td>
+            <td><a class="btn" asp-controller="Home" asp-action="Edit" asp-route-id="@x.ContactID">Edit</a></td>
+            <td><a class="btn" asp-controller="Home" asp-action="Delete" asp-route-id="@x.ContactID">Delete</a></td>
+            <td><a class="btn" asp-controller="Home" asp-action="Profile" asp-route-id="@x.ContactID">View</a></td>
+        </tbody>
+    }
+    
+</table>

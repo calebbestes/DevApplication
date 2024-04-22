@@ -1,0 +1,32 @@
+@using DevApplication.Data
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Contact
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>Add/Edit a Contact</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="ContactID"/>
+    <select asp-for="CategoryID">
+        @foreach (Category c in ViewBag.Categories)
+        {
+            <option value="@c.CategoryID">@c.CategoryName</option>
+        }
+    </select>
+    <br/>
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name" placeholder="Enter Name"/>
+    <br/>
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email" placeholder="Enter Email"/>
+    <br/>
+    <label asp-for="Address">Address</label>
+    <input asp-for="Address"/>
+    <br/>
+    <label asp-for="PhoneNumber">Phone Number</label>
+    <input asp-for="PhoneNumber" placeholder="Enter Number"/>
+    <button type="submit">Submit</button>
+</form>
