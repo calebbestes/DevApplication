@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/calebestes/LSIT/DevApplication/DevApplication/DevApplication.csproj": {}
+    "/home/calebestes/RiderProjects/DevApplication/DevApplication/DevApplication.csproj": {}
   },
   "projects": {
-    "/Users/calebestes/LSIT/DevApplication/DevApplication/DevApplication.csproj": {
+    "/home/calebestes/RiderProjects/DevApplication/DevApplication/DevApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/calebestes/LSIT/DevApplication/DevApplication/DevApplication.csproj",
+        "projectUniqueName": "/home/calebestes/RiderProjects/DevApplication/DevApplication/DevApplication.csproj",
         "projectName": "DevApplication",
-        "projectPath": "/Users/calebestes/LSIT/DevApplication/DevApplication/DevApplication.csproj",
-        "packagesPath": "/Users/calebestes/.nuget/packages/",
-        "outputPath": "/Users/calebestes/LSIT/DevApplication/DevApplication/obj/",
+        "projectPath": "/home/calebestes/RiderProjects/DevApplication/DevApplication/DevApplication.csproj",
+        "packagesPath": "/home/calebestes/.nuget/packages/",
+        "outputPath": "/home/calebestes/RiderProjects/DevApplication/DevApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/calebestes/.nuget/NuGet/NuGet.Config"
+          "/home/calebestes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/calebestes/.dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

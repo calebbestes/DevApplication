@@ -8,15 +8,17 @@ public class Contact
 {
     [Key]
     public int ContactID { get; set; }
-    [Required]
+    [Required(ErrorMessage = "Name is required")]
     public string Name { get; set; }
-    public string Address { get; set; }
+    public string? Address { get; set; }
     
-    [Required(ErrorMessage = "Phone number is required")]
-    [StringLength(11, MinimumLength = 10, ErrorMessage = "Must Contain 10 digits")]
-    [RegularExpression(@"^\d{10}$", ErrorMessage = "Phone number must contain exactly 10 digits")]
+
+    [Required(ErrorMessage = "You must provide a phone number")]
+    [Display(Name = "Home Phone")]
+    [DataType(DataType.PhoneNumber)]
+    [RegularExpression(@"^[0-9]{10}$", ErrorMessage = "Not a valid phone number")]
     public string PhoneNumber { get; set; }
-    public string Email { get; set; }
+    public string? Email { get; set; }
     // [ForeignKey("Category")]
     public int CategoryID { get; set; }
     public Category Category { get; set; }

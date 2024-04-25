@@ -3,30 +3,52 @@
 @model Contact
 
 @{
-    Layout = "_Layout";
+Layout = "_Layout";
 }
 
 <h1>Add/Edit a Contact</h1>
 
 <form method="post">
-    <input type="hidden" asp-for="ContactID"/>
-    <select asp-for="CategoryID">
-        @foreach (Category c in ViewBag.Categories)
-        {
-            <option value="@c.CategoryID">@c.CategoryName</option>
-        }
-    </select>
-    <br/>
-    <label asp-for="Name">Name</label>
-    <input asp-for="Name" placeholder="Enter Name"/>
-    <br/>
-    <label asp-for="Email">Email</label>
-    <input asp-for="Email" placeholder="Enter Email"/>
-    <br/>
-    <label asp-for="Address">Address</label>
-    <input asp-for="Address"/>
-    <br/>
-    <label asp-for="PhoneNumber">Phone Number</label>
-    <input asp-for="PhoneNumber" placeholder="Enter Number"/>
-    <button type="submit">Submit</button>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Group</label>
+            <input type="hidden" asp-for="ContactID"/>
+            <select asp-for="CategoryID" required class="form-control">
+                @foreach (Category c in ViewBag.Categories)
+                {
+                    <option value="@c.CategoryID">@c.CategoryName</option>
+                }
+            </select>
+            <span asp-validation-for="CategoryID" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter Name" required/>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Enter Email"/>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="col-md-6">
+            <label asp-for="Address">Address</label>
+            <input asp-for="Address" class="form-control" placeholder="Enter Address"/>
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label asp-for="PhoneNumber">Phone Number</label>
+            <input asp-for="PhoneNumber" class="form-control" placeholder="Enter Number" required pattern="^[0-9]{10}$" title="Phone number must be exactly 10 digits"/>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </div>
+    </div>
 </form>

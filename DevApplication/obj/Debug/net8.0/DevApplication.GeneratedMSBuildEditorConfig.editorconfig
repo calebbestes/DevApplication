@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DevApplication
 build_property.RootNamespace = DevApplication
-build_property.ProjectDir = /Users/calebestes/LSIT/DevApplication/DevApplication/
+build_property.ProjectDir = /home/calebestes/RiderProjects/DevApplication/DevApplication/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/calebestes/LSIT/DevApplication/DevApplication
+build_property.MSBuildProjectDirectory = /home/calebestes/RiderProjects/DevApplication/DevApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Areas/Identity/Pages/_ViewStart.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/Confirmation.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/Confirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/Delete.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/Form.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/Index.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/List.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Home/Profile.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/_ViewImports.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/_ViewStart.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/calebestes/LSIT/DevApplication/DevApplication/Views/Shared/_Layout.cshtml]
+[/home/calebestes/RiderProjects/DevApplication/DevApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1mvescmaif
